@@ -2178,6 +2178,12 @@ img {
   padding: 0;
   list-style: none;
 }
+/**
+  * People leaders list placeholder
+  */
+#leaders-list-spaceholder {
+  visibility: hidden;
+}
 .app .page.people .leaders-list:before,
 .app .page.people .leaders-list:after {
   content: "";
@@ -2200,6 +2206,9 @@ img {
     width: 100%;
     padding-right: 0;
     margin-bottom: 30px;
+  }
+  #leaders-list-spaceholder {
+    display: none;
   }
 }
 .app .page.people .leaders-list .leaders-list-item .leaders-list-img {
